@@ -1,0 +1,27 @@
+/*********************
+// Imports
+*********************/
+
+/* Global */
+@import 'global/breakpoints';
+@import 'global/fonts';
+@import 'global/colors';
+@import 'global/helpers';
+@import 'global/animations';
+@import 'global/containers';
+@import 'global/buttons';
+@import 'global/main';
+
+/* Pages */
+@import 'pages/not-found';
+@import 'pages/resources';
+@import 'pages/game';
+@import 'pages/help-us';
+@import 'pages/contact';
+@import 'pages/partners';
+
+/* Sections */
+@import 'sections/header';
+@import 'sections/footer';
+@import 'sections/hero-banner';
+@import 'sections/list-resource';
