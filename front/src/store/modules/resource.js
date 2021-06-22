@@ -20,7 +20,7 @@ export default {
 	actions: {
 		// [CRUD] GET Method to get resource list
 		fetchResourceList(context) {
-			fetch(`${process.env.VUE_APP_API_URL}/v1/resource`, { method: `GET` }) //=> Fetch API
+			fetch(`${process.env.VUE_APP_API_URL}/v1/tool`, { method: `GET` }) //=> Fetch API
 				.then(response => !response.ok ? console.log(response) : response.json(response)) //=> Check response
 				.then(async (apiResponse) => await context.commit(`RESOURCELIST`, { data: apiResponse.data })) //=> Commit changes
 				.catch(apiError => console.log(apiError)) //=> Catch error
@@ -28,7 +28,7 @@ export default {
 
 		//[CRUD] GET Method to get resource data from ID
 		fetchSingleResource(context, id) {
-			fetch(`${process.env.VUE_APP_API_URL}/v1/resource/${id}`, { method: `GET` }) //=> Fetch API
+			fetch(`${process.env.VUE_APP_API_URL}/v1/tool/${id}`, { method: `GET` }) //=> Fetch API
 				.then(response => !response.ok ? console.log(response) : response.json(response)) //=> Check response
 				.then(async (apiResponse) => await context.commit(`SINGLERESOURCE`, { data: apiResponse.data })) //=> Commit changes
 				.catch(apiError => console.log(apiError)) //=> Catch error

@@ -2,10 +2,10 @@
 <%- include('statics/header') -%>
 
 <main>
-	<h2>Outil</h2>
+	<h2>Ressource</h2>
 	
 	<div>
-		<h3>Détails de l'outil</h3>
+		<h3>Détails de la ressource</h3>
 		<p>Nom : <%- data.data.name %> </p>
 		<p>Description : <%- data.data.description %> </p>
 		<p>URL : <a href="<%- data.data.url %>" target="_blank" rel="noopener noreferrer"><%- data.data.url %></a> </p>
@@ -29,7 +29,7 @@
 		<p>Date de modification : <%- data.data.dateModified %> </p>
 		<p>Status : <% if (data.data.isPublished) { %> Activé <% } else { %> Désactivé <% } %> </p>
 
-		<h3>Modifier l'outil</h3>
+		<h3>Modifier la ressource</h3>
 		<%- include('components/form-tool-edit', {item: data.data}) -%>
 	</div>
 </main>

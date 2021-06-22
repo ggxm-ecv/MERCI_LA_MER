@@ -1,6 +1,6 @@
-/**
-  * TOOLS
-  */
+/*********************
+// Resources
+*********************/
 
 .tool-form__category-tags {
   display: none;
@@ -8,4 +8,23 @@
 
 .tool-form__category-tags.active {
   display: block;
+}
+
+
+/*********************
+// Header
+*********************/
+
+.header__nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  width: 600px;
+  max-width: 80%;
+  margin: 16px auto;
+}
+
+.header__nav-item-link {
+  padding: 8px 16px;
 }

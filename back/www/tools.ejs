@@ -2,15 +2,15 @@
 <%- include('statics/header') -%>
 
 <main>
-	<h2>Outils</h2>
+	<h2>Ressources</h2>
 	
 	<div>
-		<h3>Ajouter un outil</h3>
+		<h3>Ajouter une ressource</h3>
 		<%- include('components/form-tool', {data: data.data}) -%>
 	</div>
 	
 	<div>
-		<h3>Liste des outils</h3>
+		<h3>Liste des ressources</h3>
 		<p>TODO : Filtrer par catégorie et tag</p>
 		<ul>
 			<% for(let item of data.data) { %>
