@@ -118,8 +118,8 @@ body, p, li, a, button {
 }
 
 .h1 {
-  font-size: 3.8rem;
-  line-height: calc(3.8rem * 1.2);
+  font-size: 5.6rem;
+  line-height: 8.5rem;
 }
 
 .h2 {
@@ -250,7 +250,7 @@ body, p, li, a, button {
 
 .container-lg {
   box-sizing: border-box;
-  width: 1200px;
+  width: 1680px;
   max-width: 100%;
   margin: 0 auto;
   padding: 16px;
@@ -460,6 +460,45 @@ main {
   .game__title {
     padding: 24px 0;
   }
+}
+
+.game__types {
+  margin-top: 128px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.game__type {
+  padding: 32px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #173a84;
+}
+
+.game__type-title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.game__type-description {
+  margin: 32px 0 0 0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.game__type-extra {
+  margin-top: 32px;
+}
+
+.game__type-extra-txt {
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
 }
 
 /*********************

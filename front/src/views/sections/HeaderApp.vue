@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <router-link to="/" class="header__title link">
-      <h1 class="heading h2">Merci la Mer</h1>
+      <h1 class="heading h3">Merci la Mer</h1>
     </router-link>
 
     <nav class="header__nav">
