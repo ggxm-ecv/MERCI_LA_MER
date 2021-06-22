@@ -11,35 +11,67 @@
 // Fonts
 *********************/
 /********* Imports *********/
-/* Font Family - Product Sans */
+/* Font Family - Poppins */
 @font-face {
-  font-family: "Product Sans";
-  src: url("../fonts/ProductSans-Regular.eot");
-  src: url("../fonts/ProductSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProductSans-Regular.woff2") format("woff2"), url("../fonts/ProductSans-Regular.woff") format("woff"), url("../fonts/ProductSans-Regular.ttf") format("truetype"), url("../fonts/ProductSans-Regular.svg#ProductSans-Regular") format("svg");
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Light.eot");
+  src: url("../fonts/Poppins-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Light.woff2") format("woff2"), url("../fonts/Poppins-Light.woff") format("woff"), url("../fonts/Poppins-Light.ttf") format("truetype"), url("../fonts/Poppins-Light.svg#Poppins-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-LightItalic.eot");
+  src: url("../fonts/Poppins-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-LightItalic.woff2") format("woff2"), url("../fonts/Poppins-LightItalic.woff") format("woff"), url("../fonts/Poppins-LightItalic.ttf") format("truetype"), url("../fonts/Poppins-LightItalic.svg#Poppins-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.eot");
+  src: url("../fonts/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins-Regular.svg#Poppins-Regular") format("svg");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Product Sans";
-  src: url("../fonts/ProductSans-Italic.eot");
-  src: url("../fonts/ProductSans-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/ProductSans-Italic.woff2") format("woff2"), url("../fonts/ProductSans-Italic.woff") format("woff"), url("../fonts/ProductSans-Italic.ttf") format("truetype"), url("../fonts/ProductSans-Italic.svg#ProductSans-Italic") format("svg");
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Italic.eot");
+  src: url("../fonts/Poppins-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Italic.woff2") format("woff2"), url("../fonts/Poppins-Italic.woff") format("woff"), url("../fonts/Poppins-Italic.ttf") format("truetype"), url("../fonts/Poppins-Italic.svg#Poppins-Italic") format("svg");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Product Sans";
-  src: url("../fonts/ProductSans-Bold.eot");
-  src: url("../fonts/ProductSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProductSans-Bold.woff2") format("woff2"), url("../fonts/ProductSans-Bold.woff") format("woff"), url("../fonts/ProductSans-Bold.ttf") format("truetype"), url("../fonts/ProductSans-Bold.svg#ProductSans-Bold") format("svg");
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Medium.woff2") format("woff2"), url("../fonts/Poppins-Medium.woff") format("woff"), url("../fonts/Poppins-Medium.ttf") format("truetype"), url("../fonts/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-MediumItalic.eot");
+  src: url("../fonts/Poppins-MediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-MediumItalic.woff2") format("woff2"), url("../fonts/Poppins-MediumItalic.woff") format("woff"), url("../fonts/Poppins-MediumItalic.ttf") format("truetype"), url("../fonts/Poppins-MediumItalic.svg#Poppins-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.eot");
+  src: url("../fonts/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins-Bold.ttf") format("truetype"), url("../fonts/Poppins-Bold.svg#Poppins-Bold") format("svg");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Product Sans";
-  src: url("../fonts/ProductSans-BoldItalic.eot");
-  src: url("../fonts/ProductSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ProductSans-BoldItalic.woff2") format("woff2"), url("../fonts/ProductSans-BoldItalic.woff") format("woff"), url("../fonts/ProductSans-BoldItalic.ttf") format("truetype"), url("../fonts/ProductSans-BoldItalic.svg#ProductSans-BoldItalic") format("svg");
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-BoldItalic.eot");
+  src: url("../fonts/Poppins-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-BoldItalic.woff2") format("woff2"), url("../fonts/Poppins-BoldItalic.woff") format("woff"), url("../fonts/Poppins-BoldItalic.ttf") format("truetype"), url("../fonts/Poppins-BoldItalic.svg#Poppins-BoldItalic") format("svg");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -71,7 +103,7 @@
 
 /********* Main *********/
 body, p, li, a, button {
-  font-family: "Product Sans", Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-size: var(--font-size--normal);
   line-height: var(--line-height--normal);
   letter-spacing: 0.08rem;
@@ -80,7 +112,7 @@ body, p, li, a, button {
 /* Heading Settings */
 .heading {
   margin: 0;
-  font-family: "Product Sans", Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 0.04rem;
 }
@@ -656,18 +688,17 @@ main {
 
 .list-resource__item-wrap-img {
   width: 100%;
+  height: 238px;
 }
 
 .list-resource__item-img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .list-resource__item-wrap-content {
   padding: 16px;
-}
-
-.list-resource__item-title {
-  text-align: center;
 }
 
 .list-resource__item-wrap-categories {

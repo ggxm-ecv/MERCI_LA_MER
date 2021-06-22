@@ -24,18 +24,17 @@
 
 .list-resource__item-wrap-img {
   width: 100%;
+  height: 238px;
 }
 
 .list-resource__item-img {
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .list-resource__item-wrap-content {
   padding: 16px;
-}
-
-.list-resource__item-title {
-  text-align: center;
 }
 
 .list-resource__item-wrap-categories {
