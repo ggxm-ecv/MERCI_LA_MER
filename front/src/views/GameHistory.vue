@@ -118,7 +118,7 @@
           <div class="game-history__quiz-footer">
             <p class="game-history__quiz-score">Île non découverte</p>
             <p class="game-history__quiz-unlock">Termine les autres quizz pour débloquer cette île</p>
-            <button class="game-history__quiz-btn btn btn-main full">Commencer</button>
+            <router-link to="/game/history/quiz8" class="game-history__quiz-btn btn btn-main full">Commencer</router-link>
           </div>
         </div>
         <div class="game-history__quiz">

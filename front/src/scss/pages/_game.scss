@@ -218,3 +218,29 @@
 .game-history__footer-btn-back {
   margin-top: 32px;
 }
+
+/********* Quiz *********/
+
+.game-quiz__wrap-content {
+  width: 1088px;
+  max-width: 100%;
+  margin: 64px auto 0 auto;
+}
+
+.game-quiz__traking {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eff8f8;
+  border-radius: 20px;
+}
+
+.game-quiz__traking-item {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--color-third);
+  border-radius: 50%;
+  svg {
+    display: none;
+  }
+}
