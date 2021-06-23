@@ -1,60 +1,53 @@
 <template>
-  <header class="header">
-    <router-link to="/" class="header__title link">
-      <h1 class="heading h3">Merci la Mer</h1>
-    </router-link>
+  <header>
+    <div class="header container-lg">
+      <div class="header__left">
+        <router-link to="/" class="header__title link">
+          <img src="/img/logo.svg" alt="Logo">
+        </router-link>
 
-    <nav class="header__nav">
-      <ul class="header__nav-items">
-        <li class="header__nav-item">
-          <router-link to="/" class="header__nav-item-link link">Accueil</router-link>
-        </li>
-        <li class="header__nav-item">
-          <router-link to="/resources" class="header__nav-item-link link">Ressources</router-link>
-        </li>
-        <li class="header__nav-item">
-          <router-link to="/game" class="header__nav-item-link link">Jeu</router-link>
-        </li>
-        <li class="header__nav-item">
-          <router-link to="/help-us" class="header__nav-item-link link">Aidez-nous&nbsp;!</router-link>
-        </li>
-        <li class="header__nav-item">
-          <router-link to="/partners" class="header__nav-item-link link">Partenaires</router-link>
-        </li>
-        <li class="header__nav-item">
-          <router-link to="/contact" class="header__nav-item-link link">Contact</router-link>
-        </li>
-      </ul>
-    </nav>
+        <nav class="header__nav">
+          <ul class="header__nav-items">
+            <li class="header__nav-item">
+              <router-link to="/" class="header__nav-item-link link">Accueil</router-link>
+            </li>
+            <li class="header__nav-item">
+              <router-link to="/resources" class="header__nav-item-link link">Ressources</router-link>
+            </li>
+            <li class="header__nav-item">
+              <router-link to="/help-us" class="header__nav-item-link link">Aidez-nous</router-link>
+            </li>
+            <li class="header__nav-item">
+              <router-link to="/partners" class="header__nav-item-link link">Partenaires</router-link>
+            </li>
+            <li class="header__nav-item">
+              <router-link to="/contact" class="header__nav-item-link link">Contact</router-link>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-    <nav class="header__nav align-right">
-      <ul class="header__nav-items">
-        <li class="header__nav-item" v-if="!isAuth">
-          <router-link to="/login" class="header__nav-item-link link">Connexion</router-link>
-        </li>
-        <li class="header__nav-item" v-if="!isAuth">
-          <router-link to="/register" class="header__nav-item-link link">Inscription</router-link>
-        </li>
-        <li class="header__nav-item" v-if="isAuth">
-          <router-link to="/account" class="header__nav-item-link link">Mon compte</router-link>
-        </li>
-      </ul>
-    </nav>
-		
-    <!-- <nav>
-      <router-link to="/" class="button"
-        ><i class="fas fa-list"></i
-      ></router-link>
-      <button
-        v-if="isAuth"
-        type="button"
-        class="button"
-        v-on:click="logoutUser"
-      >
-        <i class="fas fa-sign-out-alt"></i>
-      </button>
-    </nav> -->
-
+      <div class="header__right">
+        <form action="" class="header__search-form">
+          <input class="header__search-form-input" type="text" placeholder="Rechercher un article, une vidéo, ...">
+          <button class="header__search-form-btn" type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16.64" height="16.56" viewBox="0 0 16.64 16.56"><path fill="#ffffff" d="M9.151,3a6.155,6.155,0,0,1,4.675,10.154l.255.255h.748l4.731,4.731L18.141,19.56l-4.731-4.731v-.748l-.255-.255A6.152,6.152,0,1,1,9.151,3m0,1.893a4.258,4.258,0,1,0,4.258,4.258A4.241,4.241,0,0,0,9.151,4.893Z" transform="translate(-3 -3)"/></svg>
+          </button>
+        </form>
+        <nav class="header__nav align-right">
+          <ul class="header__nav-items">
+            <li class="header__nav-item">
+              <router-link to="/game" class="header__nav-item-link link header__nav-item-quiz">Quiz</router-link>
+            </li>
+            <li class="header__nav-item">
+              <router-link to="/login" class="header__nav-item-link link">
+                icon Login
+              </router-link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 </template>
 

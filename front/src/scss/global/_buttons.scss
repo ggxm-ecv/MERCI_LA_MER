@@ -31,8 +31,7 @@
   @include prefix((
     transition: all 150ms ease-in
   ), webkit ms);
-  &:hover,
-  &.router-link-exact-active {
+  &:hover {
     color: var(--color-accent);
     background: transparent;
   }
@@ -47,8 +46,7 @@
   @include prefix((
     transition: all 150ms ease-in
   ), webkit ms);
-  &:hover,
-  &.router-link-exact-active {
+  &:hover {
     color: var(--color-main);
     background: var(--color-second);
   }

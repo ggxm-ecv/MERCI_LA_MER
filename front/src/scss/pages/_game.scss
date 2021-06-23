@@ -236,11 +236,73 @@
 
 .game-quiz__traking-item {
   position: relative;
+  box-sizing: border-box;
   width: 14px;
   height: 14px;
   border: 2px solid var(--color-third);
   border-radius: 50%;
+  &.active {
+    border-color: var(--color-accent);
+    background-color: var(--color-accent);
+  }
   svg {
     display: none;
   }
+}
+
+.game-quiz__items {
+  margin-top: 34px;
+}
+
+.game-quiz__item {
+  padding: 32px;
+  border-radius: 8px;
+  background-color: var(--color-main);
+  box-shadow: 3px 3px 20px #0000001F;
+}
+
+.game-quiz__item-question {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.game-quiz__item-answers {
+  margin-top: 32px;
+}
+
+.game-quiz__item-answer {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  gap: 16px;
+  &:not(:first-child) {
+    margin-top: 16px;
+  }
+}
+
+.game-quiz__item-answer-landmark {
+  margin: 0;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 48px;
+  font-weight: bold;
+  background-color: #F9F9F9;
+  border-radius: 8px;
+}
+
+.game-quiz__item-answer-txt {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.game-quiz__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
 }
