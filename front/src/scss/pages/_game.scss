@@ -155,7 +155,7 @@
   padding: 32px;
   border-radius: 8px;
   overflow: hidden;
-  background-color: #173a84;
+  background-color: var(--color-main);
   box-shadow: 3px 3px 20px #0000001F;
 }
 
@@ -171,6 +171,7 @@
   font-size: 16px;
   line-height: 25px;
   text-align: center;
+  opacity: 0.5;
 }
 
 .game-history__quiz-footer {
@@ -206,8 +207,8 @@
   font-size: 16px;
   line-height: 25px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.541);
   text-align: center;
+  opacity: 0.5;
 }
 
 .game-history__quiz-btn {
