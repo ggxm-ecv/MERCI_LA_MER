@@ -2,16 +2,14 @@
 // Colors
 *********************/
 
-//$color-dark: #222;
-$color-dark: #03256C;
-$color-white: #FFFAF1;
+$color-white: #FFFFFF;
+$color-navy-blue: #0E2E41;
+$color-blue-green: #359D9E;
+$color-coral-red: #FF7D71;
 
 :root {
-  --color-main: #{$color-dark};
-  --color-second: #{$color-white};
-}
-
-.dark-mode {
   --color-main: #{$color-white};
-  --color-second: #{$color-dark};
+  --color-second: #{$color-navy-blue};
+  --color-third: #{$color-blue-green};
+  --color-accent: #{$color-coral-red};
 }

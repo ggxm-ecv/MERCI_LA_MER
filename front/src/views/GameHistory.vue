@@ -143,6 +143,61 @@
             <button class="game-history__quiz-btn btn btn-main full">Commencer</button>
           </div>
         </div>
+        <div class="game-history__quiz">
+          <div>
+            <h3 class="game-history__quiz-title">Île 11</h3>
+            <p class="game-history__quiz-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+          <div class="game-history__quiz-footer">
+            <p class="game-history__quiz-score">Île non découverte</p>
+            <p class="game-history__quiz-unlock">Termine les autres quizz pour débloquer cette île</p>
+            <button class="game-history__quiz-btn btn btn-main full">Commencer</button>
+          </div>
+        </div>
+        <div class="game-history__quiz">
+          <div>
+            <h3 class="game-history__quiz-title">Île 12</h3>
+            <p class="game-history__quiz-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+          <div class="game-history__quiz-footer">
+            <p class="game-history__quiz-score">Île non découverte</p>
+            <p class="game-history__quiz-unlock">Termine les autres quizz pour débloquer cette île</p>
+            <button class="game-history__quiz-btn btn btn-main full">Commencer</button>
+          </div>
+        </div>
+        <div class="game-history__quiz">
+          <div>
+            <h3 class="game-history__quiz-title">Île 13</h3>
+            <p class="game-history__quiz-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+          <div class="game-history__quiz-footer">
+            <p class="game-history__quiz-score">Île non découverte</p>
+            <p class="game-history__quiz-unlock">Termine les autres quizz pour débloquer cette île</p>
+            <button class="game-history__quiz-btn btn btn-main full">Commencer</button>
+          </div>
+        </div>
+        <div class="game-history__quiz">
+          <div>
+            <h3 class="game-history__quiz-title">Île 14</h3>
+            <p class="game-history__quiz-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+          <div class="game-history__quiz-footer">
+            <p class="game-history__quiz-score">Île non découverte</p>
+            <p class="game-history__quiz-unlock">Termine les autres quizz pour débloquer cette île</p>
+            <button class="game-history__quiz-btn btn btn-main full">Commencer</button>
+          </div>
+        </div>
+        <div class="game-history__quiz">
+          <div>
+            <h3 class="game-history__quiz-title">Île 15</h3>
+            <p class="game-history__quiz-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          </div>
+          <div class="game-history__quiz-footer">
+            <p class="game-history__quiz-score">Île non découverte</p>
+            <p class="game-history__quiz-unlock">Termine les autres quizz pour débloquer cette île</p>
+            <button class="game-history__quiz-btn btn btn-main full">Commencer</button>
+          </div>
+        </div>
       </div>
       <router-link to="/game" class="game-history__footer-btn-back btn btn-second">Précédent</router-link>
     </div>
