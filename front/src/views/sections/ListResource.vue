@@ -1,5 +1,9 @@
 <template>
-  <section class="list-resource container-lg">
+  <section class="list-resource">
+
+    <div class="list-resource__filters">
+      <p>Trier par / thème / type</p>
+    </div>
 
     <ul class="list-resource__items">
 

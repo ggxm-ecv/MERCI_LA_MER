@@ -1,6 +1,7 @@
 <template>
-  <div class="ressources container-full">
-    <h2 class="ressources__title heading h2">Partie Ressources</h2>
+  <div class="ressources container-lg">
+    <h2 class="ressources__title heading h1">Ressources</h2>
+    <p class="ressources__subtitle">Les mers et océans dans tous leurs états</p>
     <ListResource :resourceCollection="resourceCollection" />
   </div>
 </template>

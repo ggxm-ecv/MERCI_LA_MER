@@ -438,6 +438,15 @@ main {
   }
 }
 
+.ressources__subtitle {
+  margin: 8px 0 0 0;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 300;
+  letter-spacing: 8.88px;
+  text-align: center;
+}
+
 /*********************
 // Game
 *********************/
@@ -849,6 +858,12 @@ main {
 /*********************
 // List resource
 *********************/
+.list-resource {
+  margin-top: 142px;
+}
+
+/********* Filters *********/
+/********* Ressources *********/
 .list-resource__items {
   display: grid;
   grid-template-columns: 1fr;
