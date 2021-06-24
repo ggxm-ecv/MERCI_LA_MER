@@ -17,34 +17,6 @@
           <svg class="game-quiz__tracking-true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
           <svg class="game-quiz__tracking-false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#0e2e41" d="M9,2A7,7,0,1,1,2,9,6.994,6.994,0,0,1,9,2m2.513,3.5L9,8.013,6.487,5.5,5.5,6.487,8.013,9,5.5,11.513l.987.987L9,9.987,11.513,12.5l.987-.987L9.987,9,12.5,6.487Z" transform="translate(-2 -2)"/></svg>
         </div>
-        <div class="game-quiz__traking-item">
-          <svg class="game-quiz__tracking-true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
-          <svg class="game-quiz__tracking-false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#0e2e41" d="M9,2A7,7,0,1,1,2,9,6.994,6.994,0,0,1,9,2m2.513,3.5L9,8.013,6.487,5.5,5.5,6.487,8.013,9,5.5,11.513l.987.987L9,9.987,11.513,12.5l.987-.987L9.987,9,12.5,6.487Z" transform="translate(-2 -2)"/></svg>
-        </div>
-        <div class="game-quiz__traking-item">
-          <svg class="game-quiz__tracking-true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
-          <svg class="game-quiz__tracking-false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#0e2e41" d="M9,2A7,7,0,1,1,2,9,6.994,6.994,0,0,1,9,2m2.513,3.5L9,8.013,6.487,5.5,5.5,6.487,8.013,9,5.5,11.513l.987.987L9,9.987,11.513,12.5l.987-.987L9.987,9,12.5,6.487Z" transform="translate(-2 -2)"/></svg>
-        </div>
-        <div class="game-quiz__traking-item">
-          <svg class="game-quiz__tracking-true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
-          <svg class="game-quiz__tracking-false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#0e2e41" d="M9,2A7,7,0,1,1,2,9,6.994,6.994,0,0,1,9,2m2.513,3.5L9,8.013,6.487,5.5,5.5,6.487,8.013,9,5.5,11.513l.987.987L9,9.987,11.513,12.5l.987-.987L9.987,9,12.5,6.487Z" transform="translate(-2 -2)"/></svg>
-        </div>
-        <div class="game-quiz__traking-item">
-          <svg class="game-quiz__tracking-true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
-          <svg class="game-quiz__tracking-false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#0e2e41" d="M9,2A7,7,0,1,1,2,9,6.994,6.994,0,0,1,9,2m2.513,3.5L9,8.013,6.487,5.5,5.5,6.487,8.013,9,5.5,11.513l.987.987L9,9.987,11.513,12.5l.987-.987L9.987,9,12.5,6.487Z" transform="translate(-2 -2)"/></svg>
-        </div>
-        <div class="game-quiz__traking-item">
-          <svg class="game-quiz__tracking-true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
-          <svg class="game-quiz__tracking-false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#0e2e41" d="M9,2A7,7,0,1,1,2,9,6.994,6.994,0,0,1,9,2m2.513,3.5L9,8.013,6.487,5.5,5.5,6.487,8.013,9,5.5,11.513l.987.987L9,9.987,11.513,12.5l.987-.987L9.987,9,12.5,6.487Z" transform="translate(-2 -2)"/></svg>
-        </div>
-        <div class="game-quiz__traking-item">
-          <svg class="game-quiz__tracking-true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
-          <svg class="game-quiz__tracking-false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#0e2e41" d="M9,2A7,7,0,1,1,2,9,6.994,6.994,0,0,1,9,2m2.513,3.5L9,8.013,6.487,5.5,5.5,6.487,8.013,9,5.5,11.513l.987.987L9,9.987,11.513,12.5l.987-.987L9.987,9,12.5,6.487Z" transform="translate(-2 -2)"/></svg>
-        </div>
-        <div class="game-quiz__traking-item">
-          <svg class="game-quiz__tracking-true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
-          <svg class="game-quiz__tracking-false" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#0e2e41" d="M9,2A7,7,0,1,1,2,9,6.994,6.994,0,0,1,9,2m2.513,3.5L9,8.013,6.487,5.5,5.5,6.487,8.013,9,5.5,11.513l.987.987L9,9.987,11.513,12.5l.987-.987L9.987,9,12.5,6.487Z" transform="translate(-2 -2)"/></svg>
-        </div>
       </div>
 
       <div class="game-quiz__items">
@@ -54,7 +26,10 @@
           <div class="game-quiz__item-answers">
             <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
               <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">Un microplastique est une particule de plastique de taille inférieure à 5mm</p>
+              <div class="game-quiz__item-answer-txt">
+                <span>Un microplastique est une particule de plastique de taille inférieure à 5mm</span>
+                <svg class="game-quiz__item-answer-check" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
+              </div>
             </div>
             <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
               <p class="game-quiz__item-answer-landmark">B</p>
@@ -72,7 +47,10 @@
           <div class="game-quiz__item-answers">
             <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
               <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">Moins de 1 milliard</p>
+              <div class="game-quiz__item-answer-txt">
+                <span>Moins de 1 milliard</span>
+                <svg class="game-quiz__item-answer-check" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
+              </div>
             </div>
             <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
               <p class="game-quiz__item-answer-landmark">B</p>
@@ -94,7 +72,10 @@
             </div>
             <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
               <p class="game-quiz__item-answer-landmark">B</p>
-              <p class="game-quiz__item-answer-txt">Plus de 6 millions</p>
+              <div class="game-quiz__item-answer-txt">
+                <span>Plus de 6 millions</span>
+                <svg class="game-quiz__item-answer-check" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
+              </div>
             </div>
             <div class="game-quiz__item-answer" data-res="C" @click="quizCheckResponse('C')">
               <p class="game-quiz__item-answer-landmark">C</p>
@@ -103,114 +84,15 @@
           </div>
         </div>
 
-        <div class="game-quiz__item" data-quiz-nb="4">
-          <p class="game-quiz__item-question">4. Quelle proportion de ces déchets plastiques vient de la terre&nbsp;?</p>
-          <div class="game-quiz__item-answers">
-            <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
-              <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">10%</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
-              <p class="game-quiz__item-answer-landmark">B</p>
-              <p class="game-quiz__item-answer-txt">50%</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="C" @click="quizCheckResponse('C')">
-              <p class="game-quiz__item-answer-landmark">C</p>
-              <p class="game-quiz__item-answer-txt">Plus de 80%</p>
-            </div>
+        <div class="game-quiz__item" data-quiz-result>
+          <p class="game-quiz__result-suptitle">Score</p>
+          <p class="game-quiz__result-percent">100%</p>
+          <div class="game-history__quiz-stars">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
           </div>
-        </div>
-
-        <div class="game-quiz__item" data-quiz-nb="5">
-          <p class="game-quiz__item-question">5. Un déchet jeté par terre va se retrouver dans les cours d'eau ou en mer.</p>
-          <div class="game-quiz__item-answers">
-            <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
-              <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">Vrai</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
-              <p class="game-quiz__item-answer-landmark">B</p>
-              <p class="game-quiz__item-answer-txt">Faux</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-quiz__item" data-quiz-nb="6">
-          <p class="game-quiz__item-question">6. Les microplastiques peuvent servir de nouvel habitat aux organismes aquatiques.</p>
-          <div class="game-quiz__item-answers">
-            <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
-              <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">Vrai</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
-              <p class="game-quiz__item-answer-landmark">B</p>
-              <p class="game-quiz__item-answer-txt">Faux</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-quiz__item" data-quiz-nb="7">
-          <p class="game-quiz__item-question">7. Si cela est vrai, cela représente-t-il un risque pour l'écosystème&nbsp;?</p>
-          <div class="game-quiz__item-answers">
-            <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
-              <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">Oui</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
-              <p class="game-quiz__item-answer-landmark">B</p>
-              <p class="game-quiz__item-answer-txt">Non</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-quiz__item" data-quiz-nb="8">
-          <p class="game-quiz__item-question">8. Les microplastiques peuvent accumuler des polluants chimiques comme les pesticides, mais peuvent-ils eux même en libérer&nbsp;?</p>
-          <div class="game-quiz__item-answers">
-            <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
-              <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">Oui</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
-              <p class="game-quiz__item-answer-landmark">B</p>
-              <p class="game-quiz__item-answer-txt">Non</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-quiz__item" data-quiz-nb="9">
-          <p class="game-quiz__item-question">9. Dans la chaîne alimentaire, ces polluants sont ensuite&nbsp;:</p>
-          <div class="game-quiz__item-answers">
-            <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
-              <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">Éliminés</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
-              <p class="game-quiz__item-answer-landmark">B</p>
-              <p class="game-quiz__item-answer-txt">Accumulés, mais sans conséquences</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="C" @click="quizCheckResponse('C')">
-              <p class="game-quiz__item-answer-landmark">C</p>
-              <p class="game-quiz__item-answer-txt">Bioaccumulés et libérés dans l'organisme</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="game-quiz__item" data-quiz-nb="10">
-          <p class="game-quiz__item-question">10. Comment sont collectés les échantillons de microplastiques à la surface de l'eau&nbsp;?</p>
-          <div class="game-quiz__item-answers">
-            <div class="game-quiz__item-answer" data-res="A" @click="quizCheckResponse('A')">
-              <p class="game-quiz__item-answer-landmark">A</p>
-              <p class="game-quiz__item-answer-txt">Avec un seau</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
-              <p class="game-quiz__item-answer-landmark">B</p>
-              <p class="game-quiz__item-answer-txt">Avec une pompe</p>
-            </div>
-            <div class="game-quiz__item-answer" data-res="C" @click="quizCheckResponse('C')">
-              <p class="game-quiz__item-answer-landmark">C</p>
-              <p class="game-quiz__item-answer-txt">A l'aide d'un filet Manta</p>
-            </div>
-          </div>
+          <p class="game-quiz__result-txt">Jolie score ! Dirige toi vers la prochaine île et continue ton aventure&nbsp;!</p>
         </div>
 
       </div>
@@ -218,11 +100,12 @@
       <div class="game-quiz__actions">
         <div class="game-quiz__wrap-prev-exit">
           <button class="game-quiz__prev-btn btn btn-second" data-quiz-prev @click="quizPrev()">Question précédente</button>
-          <router-link to="/game/history" class="game-quiz__exit-btn btn">Quitter le quiz</router-link>
+          <router-link to="/game/history2" class="game-quiz__exit-btn btn">Quitter le quiz</router-link>
         </div>
         <div class="game-quiz__wrap-next">
           <button class="game-quiz__next-btn btn btn-main active" data-quiz-next @click="quizNext()">Question suivante</button>
-          <router-link to="/game/history2" class="game-quiz__validate-btn btn btn-main">Terminer le quiz</router-link>
+          <button class="game-quiz__validate-btn btn btn-main" @click="quizValidate()">Terminer le quiz</button>
+          <router-link to="/game/historyQuiz9" class="game-quiz__next-quiz-btn btn btn-main">Île suivante</router-link>
         </div>
       </div>      
 
@@ -238,15 +121,8 @@
     data(){
       return {
         quizTrackNumber: 1,
-        quizTotalQuestion: 10,
+        quizTotalQuestion: 3,
         quizAnswers: [
-          "A",
-          "C",
-          "B",
-          "C",
-          "A",
-          "B",
-          "B",
           "A",
           "A",
           "B"
@@ -261,6 +137,7 @@
 
         document.querySelector(`.game-quiz__item.active [data-res=${resSelected}]`).classList.add('selected');
         document.querySelector(`.game-quiz__item.active [data-res=${goodAnswer}]`).classList.add('true');
+        document.querySelector(`.game-quiz__item.active [data-res=${goodAnswer}] .game-quiz__item-answer-check`).classList.add('active');
         document.querySelectorAll('.game-quiz__item.active .game-quiz__item-answer').forEach(el => {
           el.classList.add('disabled');
           if(el.getAttribute('data-res') != goodAnswer) {
@@ -321,6 +198,18 @@
             el.classList.add('active');
           }
         })
+      },
+      quizValidate() {
+        let qNB = this.quizTrackNumber;
+
+        document.querySelector(`.game-quiz__item.active[data-quiz-nb='${qNB}']`).classList.remove('active');
+        document.querySelector('.game-quiz__item[data-quiz-result]').classList.add('active');
+
+        this.quizTrackNumber++;
+        
+        document.querySelector('.game-quiz__validate-btn').classList.remove('active');
+        document.querySelector('.game-quiz__next-quiz-btn').classList.add('active');
+        document.querySelector('.game-quiz__prev-btn').classList.remove('active');
       }
     },
 

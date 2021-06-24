@@ -740,10 +740,20 @@ main {
 }
 
 .game-quiz__item-answer-txt {
-  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
   font-size: 16px;
   line-height: 25px;
   font-weight: 500;
+}
+
+.game-quiz__item-answer-check {
+  display: none;
+}
+.game-quiz__item-answer-check.active {
+  display: block;
 }
 
 .game-quiz__actions {
@@ -776,6 +786,13 @@ main {
   display: none;
 }
 .game-quiz__validate-btn.active {
+  display: block;
+}
+
+.game-quiz__next-quiz-btn {
+  display: none;
+}
+.game-quiz__next-quiz-btn.active {
   display: block;
 }
 

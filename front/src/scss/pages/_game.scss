@@ -338,10 +338,20 @@
 }
 
 .game-quiz__item-answer-txt {
-  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0;
   font-size: 16px;
   line-height: 25px;
   font-weight: 500;
+}
+
+.game-quiz__item-answer-check {
+  display: none;
+  &.active {
+    display: block;
+  }
 }
 
 .game-quiz__actions {
@@ -371,6 +381,13 @@
 }
 
 .game-quiz__validate-btn {
+  display: none;
+  &.active {
+    display: block;
+  }
+}
+
+.game-quiz__next-quiz-btn {
   display: none;
   &.active {
     display: block;

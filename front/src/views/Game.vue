@@ -5,7 +5,7 @@
       <div class="game__type">
         <div>
           <h3 class="game__type-title">Histoire</h3>
-          <p class="game__type-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <p class="game__type-description">Les océans sont menacés, les mers sont polluées, les fleuves sont asséchés… Le monde sous-marin a besoin de ton aide, embarque pour un voyage extraordinaire à travers les mers&nbsp;!</p>
         </div>
         <div class="game__type-extra">
           <p class="game__type-extra-txt">Avancée</p>
@@ -24,7 +24,7 @@
       <div class="game__type">
         <div>
           <h3 class="game__type-title">École</h3>
-          <p class="game__type-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <p class="game__type-description"> Créer, tester, apprendre sont les maîtres mots de LudOceo. Grâce au mode école tu vas pouvoir relever un nombre infini de quizs. Professeurs, élèves, et bien plus, tout le monde est convié&nbsp;!</p>
         </div>
         <div class="game__type-extra">
           <p class="game__type-extra-txt">Quiz validés</p>
@@ -37,7 +37,7 @@
       <div class="game__type">
         <div>
           <h3 class="game__type-title">Certifications éco-délégué</h3>
-          <p class="game__type-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+          <p class="game__type-description">Profitez de nos quizs pour certifier vos connaissances. De la primaire au lycée, renseignez-vous auprès de votre établissement et prétendez au rôle d’éco-délégué.</p>
         </div>
         <div class="game__type-extra">
           <p class="game__type-extra-txt">Certifications validées</p>

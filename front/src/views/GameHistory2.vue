@@ -116,11 +116,11 @@
             <p class="game-history__quiz-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
           </div>
           <div class="game-history__quiz-footer">
-            <p class="game-history__quiz-score">Score : <span class="bold">64%</span></p>
+            <p class="game-history__quiz-score">Score : <span class="bold">100%</span></p>
             <div class="game-history__quiz-stars">
               <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
               <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="#9acece" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
             </div>
             <button class="game-history__quiz-btn btn btn-second full">Recommencer</button>
           </div>
