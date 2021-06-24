@@ -41,7 +41,7 @@
             </li>
             <li class="header__nav-item">
               <router-link to="/login" class="header__nav-item-link link">
-                icon Login
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="#0e2e41" d="M14,4A5,5,0,1,1,9,9a5,5,0,0,1,5-5m0,12.5c5.525,0,10,2.237,10,5V24H4V21.5C4,18.737,8.475,16.5,14,16.5Z" transform="translate(-4 -4)"/></svg>
               </router-link>
             </li>
           </ul>

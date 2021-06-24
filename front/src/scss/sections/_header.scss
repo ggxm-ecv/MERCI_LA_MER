@@ -86,4 +86,8 @@
   background-color: var(--color-third);
   color: var(--color-main);
   box-shadow: 2px 2px 12px #359D9E52;
+  svg {
+    width: 16px;
+    height: auto;
+  }
 }
