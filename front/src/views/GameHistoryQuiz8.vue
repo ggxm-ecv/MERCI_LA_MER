@@ -110,6 +110,7 @@
       </div>      
 
     </div>
+    <div v-html="hearts" data-hearts-container class="hearts"></div>
   </div>
 </template>
 
@@ -126,7 +127,8 @@
           "A",
           "A",
           "B"
-        ]
+        ],
+        hearts: undefined
       }
     },
     methods:{
@@ -211,6 +213,30 @@
         document.querySelector('.game-quiz__validate-btn').classList.remove('active');
         document.querySelector('.game-quiz__next-quiz-btn').classList.add('active');
         document.querySelector('.game-quiz__prev-btn').classList.remove('active');
+
+        this.successAnim();
+      },
+      successAnim() {
+
+        function rnd (m,n) {
+          m = parseInt(m);
+          n = parseInt(n);
+          return Math.floor( Math.random() * (n - m + 1) ) + m;
+        }
+
+        document.querySelector('[data-hearts-container]').classList.add('active');
+        setTimeout(function(){ 
+          document.querySelector('[data-hearts-container]').classList.remove('active'); 
+        }, 3500);
+
+        document.querySelectorAll('[data-hearts-container]').forEach(el => {
+          let heartcount = (el.clientWidth/40);
+          for(let i = 0; i <= heartcount; i++) {
+            let size = (rnd(60,120)/3);
+            this.hearts += '<span class="heart_particle" data-heart style="bottom: 0; left:' + rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + (rnd(0,16)/10) + 's;"></span>'
+          }
+        });
+        
       }
     },
 
