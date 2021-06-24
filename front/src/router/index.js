@@ -56,6 +56,11 @@
 			component: () => import('../views/GameHistoryQuiz8.vue')
 		},
 		{
+			path: '/game/history/quiz9',
+			name: 'GameHistoryQuiz9',
+			component: () => import('../views/GameHistoryQuiz9.vue')
+		},
+		{
 			path: '/help-us',
 			name: 'HelpUs',
 			component: () => import('../views/HelpUs.vue')

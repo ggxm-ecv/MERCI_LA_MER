@@ -1,7 +1,7 @@
 <template>
   <div class="game container-lg">
     <h2 class="game__title heading h1">Histoire</h2>
-    <p class="game__subtitle">Île 8</p>
+    <p class="game__subtitle">Île 9</p>
     <div class="game-quiz__wrap-content">
 
       <div class="game-quiz__traking active">

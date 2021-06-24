@@ -228,10 +228,13 @@
 }
 
 .game-quiz__traking {
-  display: flex;
+  display: none;
   justify-content: space-between;
   background-color: #eff8f8;
   border-radius: 20px;
+  &.active {
+    display: flex;
+  }
 }
 
 .game-quiz__traking-item {
@@ -399,5 +402,34 @@
   line-height: 25px;
   font-weight: 500;
   color: var(--color-second);
+  opacity: 0.5;
+}
+
+/********* Quiz success *********/
+
+.game-quiz__result-suptitle {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 48px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.game-quiz__result-percent {
+  margin: 0;
+  text-align: center;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.game-quiz__result-txt {
+  max-width: 380px;
+  margin: 32px auto 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 500;
   opacity: 0.5;
 }
