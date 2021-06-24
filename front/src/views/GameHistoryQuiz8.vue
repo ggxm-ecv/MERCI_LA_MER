@@ -216,14 +216,13 @@
       </div>
 
       <div class="game-quiz__actions">
-        <div class="game-quiz__wrap-prev">
+        <div class="game-quiz__wrap-prev-exit">
           <button class="game-quiz__prev-btn btn btn-second" data-quiz-prev @click="quizPrev()">Question précédente</button>
+          <router-link to="/game/history" class="game-quiz__exit-btn btn">Quitter le quiz</router-link>
         </div>
         <div class="game-quiz__wrap-next">
-          <button class="game-quiz__next-btn btn btn-main" data-quiz-next @click="quizNext()">
-            <span class="game-quiz__next-btn-pending active">Question suivante</span>
-            <span class="game-quiz__next-btn-last">Terminer le quiz</span>
-          </button>
+          <button class="game-quiz__next-btn btn btn-main active" data-quiz-next @click="quizNext()">Question suivante</button>
+          <router-link to="/game/history2" class="game-quiz__validate-btn btn btn-main">Terminer le quiz</router-link>
         </div>
       </div>      
 
@@ -309,12 +308,19 @@
         }
 
         if(qNB == this.quizTotalQuestion) {
-          document.querySelector('.game-quiz__next-btn-pending').classList.remove('active');
-          document.querySelector('.game-quiz__next-btn-last').classList.add('active');
+          document.querySelector('.game-quiz__next-btn').classList.remove('active');
+          document.querySelector('.game-quiz__validate-btn').classList.add('active');
         } else {
-          document.querySelector('.game-quiz__next-btn-pending').classList.add('active');
-          document.querySelector('.game-quiz__next-btn-last').classList.remove('active');
+          document.querySelector('.game-quiz__next-btn').classList.add('active');
+          document.querySelector('.game-quiz__validate-btn').classList.remove('active');
         }
+
+        document.querySelectorAll('.game-quiz__traking-item').forEach((el, index) => {
+          el.classList.remove('active');
+          if(qNB == (index+1)) {
+            el.classList.add('active');
+          }
+        })
       }
     },
 

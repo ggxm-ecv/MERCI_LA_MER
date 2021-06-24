@@ -46,6 +46,11 @@
 			component: () => import('../views/GameHistory.vue')
 		},
 		{
+			path: '/game/history2',
+			name: 'GameHistory2',
+			component: () => import('../views/GameHistory2.vue')
+		},
+		{
 			path: '/game/history/quiz8',
 			name: 'GameHistoryQuiz8',
 			component: () => import('../views/GameHistoryQuiz8.vue')
