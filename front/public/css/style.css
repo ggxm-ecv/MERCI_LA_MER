@@ -292,6 +292,7 @@ body, p, li, a, button {
   border-radius: 8px;
   color: var(--color-main);
   background: var(--color-accent);
+  box-shadow: 3px 3px 16px #FF7D7152;
   -webkit-transition: all 150ms ease-in;
   -ms-transition: all 150ms ease-in;
   transition: all 150ms ease-in;
@@ -299,6 +300,7 @@ body, p, li, a, button {
 .btn-main:hover {
   color: var(--color-accent);
   background: transparent;
+  box-shadow: none;
 }
 
 .btn-second {

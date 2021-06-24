@@ -28,12 +28,14 @@
   border-radius: 8px;
   color: var(--color-main);
   background: var(--color-accent);
+  box-shadow: 3px 3px 16px #FF7D7152;
   @include prefix((
     transition: all 150ms ease-in
   ), webkit ms);
   &:hover {
     color: var(--color-accent);
     background: transparent;
+    box-shadow: none;
   }
 }
 
