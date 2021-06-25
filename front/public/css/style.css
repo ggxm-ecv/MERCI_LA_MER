@@ -751,6 +751,10 @@ main {
   line-height: 25px;
   font-weight: 500;
 }
+.game-quiz__item-answer-txt.grid-important {
+  display: grid;
+  grid-template-columns: auto 14px;
+}
 
 .game-quiz__item-answer-check {
   display: none;

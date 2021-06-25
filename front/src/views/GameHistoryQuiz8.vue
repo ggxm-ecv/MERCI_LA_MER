@@ -28,7 +28,6 @@
               <p class="game-quiz__item-answer-landmark">A</p>
               <div class="game-quiz__item-answer-txt">
                 <span>Un microplastique est une particule de plastique de taille inférieure à 5mm</span>
-                <svg class="game-quiz__item-answer-check" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
               </div>
             </div>
             <div class="game-quiz__item-answer" data-res="B" @click="quizCheckResponse('B')">
@@ -37,7 +36,10 @@
             </div>
             <div class="game-quiz__item-answer" data-res="C" @click="quizCheckResponse('C')">
               <p class="game-quiz__item-answer-landmark">C</p>
-              <p class="game-quiz__item-answer-txt">Un microplastique est une particule de plastique de taille inférieure à 5mm. Ces particules peuvent être présentes sous forme de microbilles dans les cosmétiques, libérées sous forme de microfibres lors du lavage de nos vêtements synthétiques, ou peuvent être issues de la fragmentation des gros déchets.</p>
+              <p class="game-quiz__item-answer-txt grid-important">
+                <span>Un microplastique est une particule de plastique de taille inférieure à 5mm. Ces particules peuvent être présentes sous forme de microbilles dans les cosmétiques, libérées sous forme de microfibres lors du lavage de nos vêtements synthétiques, ou peuvent être issues de la fragmentation des gros déchets.</span>
+                <svg class="game-quiz__item-answer-check" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
+              </p>
             </div>
           </div>
         </div>
@@ -58,7 +60,10 @@
             </div>
             <div class="game-quiz__item-answer" data-res="C" @click="quizCheckResponse('C')">
               <p class="game-quiz__item-answer-landmark">C</p>
-              <p class="game-quiz__item-answer-txt">Plus de 4 milliards</p>
+              <p class="game-quiz__item-answer-txt">
+                <span>Plus de 4 milliards</span>
+                <svg class="game-quiz__item-answer-check" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><defs></defs><path fill="#359d9e" d="M9,2a7,7,0,1,0,7,7A7.021,7.021,0,0,0,9,2M7.6,12.5,4.1,9l.987-.987L7.6,10.519l5.313-5.313L13.9,6.2Z" transform="translate(-2 -2)"/></svg>
+              </p>
             </div>
           </div>
         </div>
@@ -86,11 +91,11 @@
 
         <div class="game-quiz__item" data-quiz-result>
           <p class="game-quiz__result-suptitle">Score</p>
-          <p class="game-quiz__result-percent">100%</p>
+          <p class="game-quiz__result-percent">66%</p>
           <div class="game-history__quiz-stars">
             <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
             <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="#359D9E" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#9acece" width="45.263" height="43" viewBox="0 0 45.263 43"><path d="M24.632,36.558,38.618,45,34.906,29.09l12.357-10.7-16.272-1.4L24.632,2,18.272,16.982,2,18.385l12.334,10.7L10.645,45Z" transform="translate(-2 -2)"/></svg>
           </div>
           <p class="game-quiz__result-txt">Jolie score ! Dirige toi vers la prochaine île et continue ton aventure&nbsp;!</p>
         </div>
@@ -124,8 +129,8 @@
         quizTrackNumber: 1,
         quizTotalQuestion: 3,
         quizAnswers: [
-          "A",
-          "A",
+          "C",
+          "C",
           "B"
         ],
         hearts: undefined
@@ -236,7 +241,7 @@
             this.hearts += '<span class="heart_particle" data-heart style="bottom: 0; left:' + rnd(0,95) + '%;width:' + size + 'px; height:' + size + 'px;animation-delay: ' + (rnd(0,16)/10) + 's;"></span>'
           }
         });
-        
+
       }
     },
 
